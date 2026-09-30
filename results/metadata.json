@@ -1,0 +1,42 @@
+{
+  "n_observations": 150,
+  "n_quartiers": 3,
+  "validation_principale": "RepeatedKFold 5 plis × 10 répétitions, random_state=42",
+  "test_apparie": "Wilcoxon sur erreurs absolues OOF d'un KFold fixe à 5 plis; correction de Holm",
+  "bootstrap": "10000 rééchantillonnages des différences appariées de MAE",
+  "hyperparametres": {
+    "Extra Trees": {
+      "n_estimators": 500,
+      "min_samples_leaf": 2,
+      "max_features": 0.8,
+      "bootstrap": false,
+      "random_state": 42
+    },
+    "Gradient Boosting": {
+      "n_estimators": 250,
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "min_samples_leaf": 3,
+      "loss": "squared_error",
+      "random_state": 42
+    },
+    "Forêt aléatoire": {
+      "n_estimators": 500,
+      "min_samples_leaf": 3,
+      "max_features": 0.8,
+      "bootstrap": true,
+      "random_state": 42
+    },
+    "Ridge": {
+      "alpha": 10.0
+    }
+  },
+  "reglage": "Hyperparamètres fixés a priori; aucune recherche sur grille ou optimisation sur cette base.",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit_learn": "1.8.0"
+  }
+}
