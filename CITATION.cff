@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript."
+title: "Machine Learning-Based Predictive Modeling of Perceived Reasonable Residential Rent in Kinshasa"
+type: software
+authors:
+  - family-names: "Mayambo"
+    given-names: "Néhémie"
+version: 1.0.0
+date-released: 2026-09-30
+license: MIT
+keywords:
+  - machine learning
+  - residential rent
+  - Extra Trees
+  - Kinshasa
+  - housing
+abstract: >-
+  Reproducible machine-learning analysis of perceived reasonable residential
+  rent using 150 anonymized housing observations from three neighborhoods in
+  Limete, Kinshasa.
+
